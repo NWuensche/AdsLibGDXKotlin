@@ -71,5 +71,6 @@ project(":core") {
         api "com.badlogicgames.gdx:gdx:$gdxVersion"
         api "com.badlogicgames.gdx:gdx-box2d:$gdxVersion"
         api "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+        implementation group: 'io.arrow-kt', name: 'arrow-core-data', version: '0.10.4'
     }
 }
